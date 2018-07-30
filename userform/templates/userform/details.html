@@ -1,0 +1,20 @@
+{% extends 'userform/layout.html' %}
+
+{% block content %}
+<h3 class="">{{user.title}}</h3>
+<div class="">
+    <div class="">
+        {{user.name}}
+    </div>
+    <div class="">
+        {{user.email}}
+    </div>
+    <div class="">
+        {{user.phone}}
+    </div>
+    <div class="">
+        {{user.dob}}
+    </div>
+</div>
+<a href="/userform" class="">Back</a>
+{% endblock %}
